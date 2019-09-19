@@ -1,4 +1,12 @@
-img {
-	max-width: 100%;
+html, body {
+	align-content: center;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#profilepic {
+	border-radius: 50%;
+	max-width: 10%;
 	height: auto;
+	object-fit: cover;
 }
