@@ -1,12 +1,45 @@
-html, body {
-	align-content: center;
-	justify-content: center;
+body {
 	font-family: 'Montserrat', sans-serif;
+	background-color: #b5c0ff;
+	color: black;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.section1 {
+	text-align: center;
+	padding-top: 25vh;
+	padding-left: 20vh;
+}
+
+.section1 a {
+	text-decoration: none;
+	color: steelblue;
+	font-size: 1.5rem;
+	padding: 10px;
+}
+
+.section1 h1 {
+	font-size: 2.5em;
+}
+
+.linkscontainer {
+	display: block;
+	padding-top: 10px;
+}
+
+.section2 {
+	padding-top: 13vh;
+	width: 75%;
 }
 
 #profilepic {
 	border-radius: 50%;
-	max-width: 10%;
+	width: 40%;
 	height: auto;
 	object-fit: cover;
+	padding: 3%;
 }
