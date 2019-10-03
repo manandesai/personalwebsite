@@ -43,3 +43,18 @@ body {
 	object-fit: cover;
 	padding: 3%;
 }
+
+@media(max-width:780px){
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .section1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
